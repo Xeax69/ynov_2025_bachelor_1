@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func Âge() {
+func Âge() (int, string) {
 	var (
 		âge  int
 		noms string
@@ -11,18 +11,18 @@ func Âge() {
 	noms = "Alice"
 	fmt.Printf("Nom: %s\n", noms)
 	fmt.Printf("Âge: %d ans\n", âge)
+	return âge, noms
 }
 
-func Verifmajeur() {
-	var personne int
-	if personne >= 18 {
-		fmt.Println("La personne est Majeur")
+func Verifmajeur(âge int, nom string) {
+	if âge >= 18 {
+		fmt.Printf("%s est majeur\n", nom)
 	} else {
-		fmt.Println("La personne est mineur")
+		fmt.Printf("%s est mineur\n", nom)
 	}
 }
 
 func main() {
-	Âge()
-	Verifmajeur()
+	âge, nom := Âge()
+	Verifmajeur(âge, nom)
 }
