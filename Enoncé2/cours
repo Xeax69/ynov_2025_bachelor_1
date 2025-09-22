@@ -1,0 +1,5 @@
+Énoncé 2 : une station météo enregistre la température 
+le matin et l’après-midi. On veut afficher la température la plus basse 
+et la plus haute de la journée. La station note aussi le nom du 
+technicien qui a saisi les mesures, mais ce détail n’est pas utile
+pour le calcul.

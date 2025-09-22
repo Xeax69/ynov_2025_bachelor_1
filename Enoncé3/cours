@@ -1,0 +1,6 @@
+Énoncé 3 : à la caisse d’un magasin, un client achète un produit. 
+On saisit le prix de ce produit et la somme qu’il donne. 
+Le programme doit déterminer si le client n’a pas donné assez, 
+s’il a donné exactement la bonne somme, ou s’il doit recevoir de la monnaie.
+On garde également la couleur du ticket imprimé, 
+mais elle ne change rien au calcul.
