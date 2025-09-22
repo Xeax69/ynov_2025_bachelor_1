@@ -1,0 +1,6 @@
+Énoncé 1 : une mairie veut savoir si une personne est majeure avant 
+de lui délivrer un document officiel. 
+On note l’âge de la personne en années. 
+Le programme doit indiquer si elle est majeure ou mineure. 
+On garde aussi le prénom de la personne, 
+mais il n’est pas nécessaire pour décider de la majorité.
